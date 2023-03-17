@@ -1,0 +1,193 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./assests/image\ 3.svg'), linear-gradient(150deg,#54ddba, #4d114f);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    /* box-sizing: content-box; */
+}
+
+.navbar{
+    opacity: 100%;
+}
+li{
+    padding: 20px;
+}
+.homepage{
+    height: 50vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.sideline{
+    width: 85vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.openr{
+    width: 75%;
+    position: relative;
+    top: 20%;
+}
+.country{
+    width: 500px;
+    /* position: relative;
+    right: 400px; */
+}
+.registration{
+    margin-top: 100px;
+    width: 80vw;
+    /* height: 400px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.registration-link{
+    width: 400px;
+}
+.aboutus{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./assests/3\ 1.svg'), linear-gradient(150deg,#54ddba, #4d114f);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.about-heading{
+    margin-top: 100px;
+    margin-left:100px;
+}
+.aboutusimg{
+    width: 50%;
+}
+.about-detail{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    width: 700px;
+    margin: 100px 300px;
+    color: white;
+}
+.prize{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(150deg,#54ddba, #4d114f);
+}
+.coming{
+    font-size: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-size: 40px;
+}
+.faqoutbox{
+    width: 100vw;
+    height: 100vh;
+    
+    background-image: linear-gradient(150deg,#54ddba, #4d114f);
+}
+
+.faq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faqimg{
+    margin: 50px 0px 25px 50px;
+    width: 250px;
+}
+
+.faqimgbox{
+    width: 50%;
+    height: 100%;
+}
+
+.girl{
+    width: 100%;
+    height: 100%;
+}
+
+.faqbox{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 90%;
+    height: 80vh;
+    flex-wrap: wrap;
+    border: 1px solid #ffd0cb;
+}
+.accordion-item{
+    background-color: transparent;
+    border: 1px solid #ffd0cb;
+}
+.accordion-button{
+    background-color: transparent;
+    font-size: 30px;
+    color: #a2c4c0;
+}
+strong{
+    font-size: 30px;
+}
+.accordion-body{
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .country{
+        width: 250px;
+    }
+    .registration-link{
+        width: 250px;
+    }
+    .about-heading{
+        margin: 100px 0;
+    }
+    .aboutusimg{
+        width: 100%;
+    }
+    .about-detail{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        width: 80%;
+        margin: 100px 20px;
+        color: white;
+    }
+    .faqimgbox{
+        width: 100%;
+        height: 50%;
+    }
+    .faqoutbox{
+        height: fit-content;
+        padding: 10px;
+    }
+    .faqbox{
+        height: fit-content;
+        padding: 10px;
+    }
+    .faq{
+        height: fit-content;
+    }
+    .faqimgbox{
+        height: fit-content;
+    }
+    strong{
+        font-size: 20px;
+    }
+    .accordion-body{
+        font-size: 20px;
+    }
+    .accordion-button{
+        font-size: 20px;
+    }
+  }
