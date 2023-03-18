@@ -137,9 +137,13 @@ h4{
 }
 strong{
     font-size: 30px;
+    color: #a2c4c0;
 }
 .accordion-body{
     font-size: 30px;
+}
+.accordian-a{
+    color: pink;
 }
 
 
@@ -151,10 +155,11 @@ strong{
         width: 250px;
     }
     .about-heading{
-        margin: 100px 0;
+        margin: 100px 20px;
     }
     .aboutusimg{
-        width: 100%;
+        width: 90%;
+
     }
     .about-detail{
         font-family:Arial, Helvetica, sans-serif;
