@@ -122,7 +122,7 @@ h4{
     /* justify-content: center;
     align-items: center; */
     width: 90%;
-    height: 80vh;
+    height: fit-content;
     flex-wrap: wrap;
     border: 1px solid #ffd0cb;
 }
