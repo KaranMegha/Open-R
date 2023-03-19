@@ -145,6 +145,9 @@ strong{
 .accordian-a{
     color: pink;
 }
+p{
+    font-size: 30px;
+}
 
 
 @media screen and (max-width: 800px) {
@@ -193,6 +196,9 @@ strong{
         font-size: 20px;
     }
     .accordion-button{
+        font-size: 20px;
+    }
+    p{
         font-size: 20px;
     }
   }
