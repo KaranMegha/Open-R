@@ -151,6 +151,9 @@ p{
 
 
 @media screen and (max-width: 800px) {
+    .openr{
+        width: 100%;
+    }
     .country{
         width: 250px;
     }
