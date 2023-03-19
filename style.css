@@ -225,7 +225,8 @@ p{
         font-size: 20px;
     }
     .prizeImg{
-        width: 300px;
+        width: 250px;
+        height: 200px;
         margin: 20px 0px;
     }
     .prize-heading h1{
